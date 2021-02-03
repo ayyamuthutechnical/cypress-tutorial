@@ -1,0 +1,25 @@
+{
+  "name": "benchvote-cypress-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cypress open",
+    "e2e:report": "node cypress_runner -b chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-file-upload": "4.0.6",
+    "cypress-xpath": "^1.4.0",
+    "ls": "^0.2.1",
+    "mocha": "5.2.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "yargs": "^15.3.1"
+  }
+}

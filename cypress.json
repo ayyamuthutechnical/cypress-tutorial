@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://sandbox-admin.cypressdemo.com/#!/home/dashboard",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+     },
+     "screenshotsFolder": "report/mochawesome-report/assets"
+}
